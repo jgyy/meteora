@@ -1,0 +1,11 @@
+[package]
+name = "meteora-tokenization"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anchor-lang = "0.30"
+anchor-spl = "0.30"
+solana-program = "1.18"
+
+[dev-dependencies]

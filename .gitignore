@@ -137,3 +137,145 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# ============ RUST & CARGO ============
+# Rust build artifacts
+/target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# Rust IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============ SOLANA & ANCHOR ============
+# Anchor artifacts
+.anchor/
+target/
+**/.anchor-devnet/
+
+# Solana keypairs and secrets (DO NOT COMMIT)
+id_*.json
+*.secret
+*.pem
+*.key
+secrets/
+
+# Solana program binary cache
+dist/
+build/
+
+# ============ IDE & EDITOR ============
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.vim
+.vim/
+
+# Emacs
+*~
+*.swp
+*.swo
+TAGS
+.#*
+
+# ============ OS SPECIFIC ============
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.trash/
+
+# ============ DEVELOPMENT ============
+# Environment files (except examples)
+.env
+.env.local
+.env.*.local
+!.env.example
+!.env.example.local
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Misc
+.cache/
+.tmp/
+tmp/
+*.temp
+
+# ============ BUILD OUTPUTS ============
+# Next.js
+.next/
+out/
+*.module.js
+*.module.css
+
+# SDK Build
+sdk/typescript/dist/
+sdk/typescript/src/**/*.js
+sdk/typescript/src/**/*.d.ts
+
+# Frontend Build
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+
+# ============ LOGS & DEBUG ============
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Debug files
+.lldb_commands
+
+# ============ NODE_MODULES ============
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+yarn.lock
+package-lock.json
+
+# Lock files (optional - uncomment if you want to commit)
+# Remove the # below if you want to track lock files
+# !package-lock.json
+# !yarn.lock
